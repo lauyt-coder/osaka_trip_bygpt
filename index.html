@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f6eee7">
+<title>冬日旅行手帳｜大阪・飛驒・金澤・神戶</title>
+<style>
+:root{--ink:#403c39;--muted:#827a73;--paper:#fffdf9;--cream:#f6eee7;--pink:#e8a9ae;--rose:#c97883;--blue:#9db8c8;--green:#a9bba3;--gold:#d9b979;--line:#e9ded4;--shadow:0 8px 26px #5b433012}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif;line-height:1.65}a{color:#587b8b;text-decoration:none}button{font:inherit;cursor:pointer}.wrap{max-width:760px;margin:auto;padding:18px 15px 60px}.hero{position:relative;overflow:hidden;border-radius:28px;background:linear-gradient(135deg,#f4dfe0,#e8eff0 58%,#f8eddb);padding:28px 22px 24px;box-shadow:var(--shadow)}.hero:after{content:"✿  ❀  ✧";position:absolute;right:12px;top:12px;color:#fff9;font-size:30px;letter-spacing:8px}.eyebrow{font-size:11px;letter-spacing:2px;color:#846d6b}.hero h1{font-family:Georgia,"Noto Serif TC",serif;font-size:30px;line-height:1.25;margin:9px 0 6px;font-weight:600}.hero p{margin:0;color:#716a66;font-size:13px}.hero-art{display:flex;gap:10px;align-items:center;margin-top:18px}.hero-art svg{width:100%;height:auto;max-height:112px}.panel{margin-top:15px;background:var(--paper);border:1px solid #efe6dd;border-radius:21px;box-shadow:var(--shadow);overflow:hidden}.panel-head{padding:15px 17px;display:flex;align-items:center;justify-content:space-between;gap:10px}.panel-head h2{font-size:16px;margin:0}.panel-head small{color:var(--muted);font-size:11px}.pill{font-size:11px;border-radius:99px;padding:4px 9px;background:#f7e9e8;color:#9c6268}.pill.blue{background:#eaf1f4;color:#587789}.pill.gold{background:#f7f0df;color:#92753e}.countgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:0 16px 17px}.count{background:#f8f2ed;border-radius:14px;text-align:center;padding:10px 4px}.count b{display:block;font-size:26px;font-variant-numeric:tabular-nums;line-height:1.2;color:#725c59}.count span{font-size:10px;color:var(--muted)}.focusline{padding:0 17px 13px;font-size:13px}.focusline strong{color:#9c6268}.section-title{margin:25px 4px 10px;display:flex;align-items:end;justify-content:space-between}.section-title h2{font-size:18px;margin:0}.section-title span{font-size:11px;color:var(--muted)}details.panel>summary{list-style:none;cursor:pointer;padding:16px 17px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-weight:650}details.panel>summary::-webkit-details-marker{display:none}details.panel>summary:after{content:"＋";font-size:20px;color:#a17d7b;font-weight:400}details.panel[open]>summary:after{content:"－"}.details-body{padding:0 17px 18px;border-top:1px solid #f0e8e0}.mapbox{background:#f8f4ec;border-radius:16px;padding:10px;margin:5px 0 12px}.mapbox svg{width:100%;height:auto;display:block}.legend{display:flex;gap:9px;flex-wrap:wrap;font-size:10px;color:var(--muted)}.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px}.maplink{display:inline-flex;align-items:center;gap:5px;background:#eef3f3;border-radius:99px;padding:7px 11px;font-size:11px;margin:3px 4px 3px 0}.timeline{margin:12px 0 2px}.event{display:grid;grid-template-columns:66px 1fr;gap:10px;position:relative;padding:0 0 17px}.event:not(:last-child):before{content:"";position:absolute;left:66px;top:17px;bottom:-2px;border-left:1px dashed #d8c9bd}.time{font-size:12px;font-weight:700;color:#9a7072;font-variant-numeric:tabular-nums;padding-top:2px}.eventmain{position:relative;padding-left:17px}.eventmain:before{content:"";position:absolute;left:-4px;top:7px;width:8px;height:8px;border-radius:50%;background:var(--pink);border:2px solid #fff;box-shadow:0 0 0 1px #dfb5b4}.eventmain b{font-size:13px}.eventmain p{font-size:12px;color:#756d67;margin:3px 0 0}.tag{display:inline-block;font-size:10px;border-radius:5px;padding:2px 6px;margin-left:4px;background:#f8e6e4;color:#9e5f66}.tag.need{background:#f8efd9;color:#8b6d30}.tag.fixed{background:#e8f0ed;color:#547565}.note{background:#f8f2e9;border-left:3px solid var(--gold);padding:10px 12px;border-radius:8px;font-size:12px;color:#6f6254;margin:10px 0}.warn{background:#fff0ee;border-left:3px solid #d98c87;padding:10px 12px;border-radius:8px;font-size:12px;color:#875b59;margin:10px 0}.good{background:#edf4ef;border-left:3px solid #9ab49d;padding:10px 12px;border-radius:8px;font-size:12px;color:#58715d;margin:10px 0}.hotel{border:1px solid var(--line);border-radius:14px;padding:12px;margin:10px 0}.hotel b{font-size:13px}.hotel p{font-size:11px;color:var(--muted);margin:4px 0}.subhead{font-size:12px;font-weight:700;margin:15px 0 7px;color:#806c65}.todo-group{padding:0 17px 16px}.todo-group h3{font-size:13px;margin:12px 0 7px}.todo{display:flex;align-items:flex-start;gap:9px;padding:8px 0;border-bottom:1px dashed #eee5dd;font-size:12px}.todo input{appearance:none;flex:0 0 18px;width:18px;height:18px;border:1.5px solid #c9b8ad;border-radius:6px;margin:0;margin-top:1px;background:#fff}.todo input:checked{background:#91aa96;border-color:#91aa96}.todo input:checked:after{content:"✓";display:block;color:white;text-align:center;font-size:13px;line-height:16px}.todo:has(input:checked) span{text-decoration:line-through;color:#a69d95}.progress{font-size:11px;color:var(--muted);padding:0 17px 12px}.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.contact{padding:11px;border-radius:13px;background:#f8f4ee;font-size:11px}.contact b{display:block;font-size:12px}.contact span{color:var(--muted)}.footer{font-size:10px;color:#938980;text-align:center;margin:28px 8px 0}.tiny{font-size:10px;color:var(--muted)}.topbtn{position:fixed;right:15px;bottom:18px;border:0;border-radius:50%;width:42px;height:42px;background:#806c65;color:white;box-shadow:var(--shadow);opacity:.9}.source-list{font-size:11px;color:var(--muted);padding-left:18px}.source-list li{margin:5px 0}.source-list a{text-decoration:underline}
+@media(min-width:600px){.wrap{padding:28px 22px 70px}.hero{padding:34px 30px}.hero h1{font-size:38px}.event{grid-template-columns:78px 1fr}.event:not(:last-child):before{left:78px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+ <div class="eyebrow">WINTER TRAVEL JOURNAL · 2026</div>
+ <h1>冬日慢慢走，<br>把風景收藏起來。</h1>
+ <p>大阪 → 飛驒高山 → 白川鄉 → 金澤 → 神戶 → 台北 → 香港</p>
+ <div class="hero-art" aria-label="手繪火車、山與雪花">
+ <svg viewBox="0 0 620 120" role="img">
+  <path d="M8 95 Q75 70 138 91 T270 86 T410 90 T610 82" fill="none" stroke="#b8c8b7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M25 88 L87 23 L143 88 M98 88 L160 42 L210 88" fill="#e7f0ed" stroke="#91aaa4" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M72 40 L87 23 L103 42 L91 37 L84 42Z M146 56 L160 42 L174 57 L162 53 L156 58Z" fill="#fffdf9"/>
+  <g transform="translate(250 47)" stroke="#876f69" stroke-width="2.5" stroke-linejoin="round">
+   <rect x="0" y="0" width="150" height="48" rx="13" fill="#e7b8b7"/><path d="M13 12h34v17H13zM55 12h34v17H55zM97 12h34v17H97z" fill="#f8f2e8"/><path d="M12 38h126" stroke="#fff" stroke-width="3"/><circle cx="33" cy="51" r="7" fill="#82736d"/><circle cx="119" cy="51" r="7" fill="#82736d"/>
+  </g>
+  <g fill="#fff" stroke="#b6c6c0" stroke-width="1.5"><path d="M475 23v22m-11-11h22m-19-8 16 16m0-16-16 16"/><path d="M548 50v18m-9-9h18m-15-6 12 12m0-12-12 12"/></g>
+  <path d="M430 91q10-18 20 0q10-18 20 0" fill="none" stroke="#c98e92" stroke-width="2"/>
+ </svg>
+ </div>
+</header>
+
+<section class="panel" id="focus">
+ <div class="panel-head"><h2>✦ 此刻關注</h2><span class="pill">下一個固定行程</span></div>
+ <div class="focusline"><strong>DAY 1 · 23 DEC 2026</strong><br>BR846 長榮航空｜香港 → 高雄｜12:15 HKT 起飛</div>
+ <div class="countgrid" aria-live="polite">
+  <div class="count"><b id="dd">--</b><span>天</span></div><div class="count"><b id="hh">--</b><span>時</span></div><div class="count"><b id="mm">--</b><span>分</span></div><div class="count"><b id="ss">--</b><span>秒</span></div>
+ </div>
+ <div class="tiny" style="padding:0 17px 14px">倒數目標：2026-12-23 12:15（香港時間 HKT，UTC+8）</div>
+</section>
+
+<div class="section-title"><h2>旅行總覽</h2><span>點開卡片查看內容</span></div>
+<details class="panel">
+ <summary>🗺️ 手繪路線地圖 <small>DAY 1–9 · 住宿位置</small></summary>
+ <div class="details-body">
+  <div class="mapbox">
+  <svg viewBox="0 0 620 390" role="img" aria-label="大阪、高山、白川鄉、金澤、神戶、台北旅行路線示意圖">
+   <path d="M50 330 Q90 280 130 250 T230 205 T340 130 T465 95" fill="none" stroke="#d9d0c4" stroke-width="2" stroke-dasharray="5 7"/>
+   <path d="M95 278 Q140 240 200 210" fill="none" stroke="#d98d95" stroke-width="5" stroke-linecap="round"/>
+   <path d="M200 210 Q250 150 330 130" fill="none" stroke="#91aebc" stroke-width="5" stroke-linecap="round"/>
+   <path d="M330 130 Q375 85 430 75" fill="none" stroke="#9eaf91" stroke-width="5" stroke-linecap="round"/>
+   <path d="M430 75 Q350 200 95 278" fill="none" stroke="#d2b16d" stroke-width="4" stroke-dasharray="7 6"/>
+   <path d="M95 278 Q60 310 35 342" fill="none" stroke="#b58eae" stroke-width="4" stroke-dasharray="5 6"/>
+   <g font-family="sans-serif" font-size="13" fill="#514944" font-weight="600">
+    <circle cx="95" cy="278" r="9" fill="#d98d95" stroke="white" stroke-width="3"/><text x="108" y="274">大阪</text><text x="108" y="290" font-size="10" font-weight="400">DAY 1–2</text>
+    <circle cx="200" cy="210" r="9" fill="#91aebc" stroke="white" stroke-width="3"/><text x="214" y="207">高山</text><text x="214" y="223" font-size="10" font-weight="400">DAY 3–6</text>
+    <circle cx="330" cy="130" r="9" fill="#9eaf91" stroke="white" stroke-width="3"/><text x="344" y="127">白川鄉</text><text x="344" y="143" font-size="10" font-weight="400">DAY 5</text>
+    <circle cx="430" cy="75" r="9" fill="#d2b16d" stroke="white" stroke-width="3"/><text x="444" y="72">金澤</text><text x="444" y="88" font-size="10" font-weight="400">DAY 7</text>
+    <circle cx="35" cy="342" r="9" fill="#b58eae" stroke="white" stroke-width="3"/><text x="50" y="339">神戶</text><text x="50" y="355" font-size="10" font-weight="400">DAY 8</text>
+    <circle cx="560" cy="300" r="9" fill="#91aebc" stroke="white" stroke-width="3"/><text x="574" y="304">台北</text><text x="574" y="320" font-size="10" font-weight="400">DAY 8–9</text>
+   </g>
+   <g fill="#fff" stroke="#b9aaa0" stroke-width="1.5"><path d="M270 38l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z"/><path d="M520 190l5 10 11 2-8 7 2 11-10-5-10 5 2-11-8-7 11-2z"/></g>
+   <text x="20" y="25" font-size="10" fill="#96877c">路線示意圖 · 非比例地圖</text>
+  </svg>
+  </div>
+  <div class="legend"><span><i style="background:#d98d95"></i>大阪段</span><span><i style="background:#91aebc"></i>飛驒段</span><span><i style="background:#9eaf91"></i>白川鄉段</span><span><i style="background:#d2b16d"></i>金澤段</span></div>
+  <div class="subhead">每晚住宿</div>
+  <div class="hotel"><b>23–24 DEC｜大阪</b><p>BRACKETS HOTEL Osaka Hommachi · 本町站附近</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=BRACKETS+HOTEL+Osaka+Hommachi" target="_blank" rel="noopener">Google 地圖 ↗</a></div>
+  <div class="hotel"><b>25–28 DEC｜高山</b><p>飛驒高山華盛頓廣場酒店 · 高山站步行約 1 分鐘</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Hida+Takayama+Washington+Hotel+Plaza" target="_blank" rel="noopener">Google 地圖 ↗</a></div>
+  <div class="hotel"><b>29 DEC｜金澤</b><p>微笑酒店高級金澤東口站前 · 金澤站東口步行約 3 分鐘</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Smile+Hotel+Premium+Kanazawa+Higashiguchi+Ekimae" target="_blank" rel="noopener">Google 地圖 ↗</a></div>
+  <div class="hotel"><b>30 DEC｜桃園機場</b><p>町 草休行館（依你提供的名稱；地址與接駁位置待核實）</p></div>
+  <div class="note">地圖為手繪風路線示意，實際步行與交通請以各日 Google 地圖導航及當日交通公告為準。</div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>✈️ 已提供的航班、酒店及聯絡資料</summary>
+ <div class="details-body">
+  <div class="subhead">航班（時間均為出發／抵達當地時間）</div>
+  <div class="contactgrid">
+   <div class="contact"><b>23 DEC · BR846 第一段</b>香港 HKG → 高雄 KHH<br><span>12:15–13:45 · HKT / CST（UTC+8）</span></div>
+   <div class="contact"><b>23 DEC · BR846 第二段</b>高雄 KHH → 關西 KIX<br><span>15:25–19:15 · CST → JST（UTC+8 → +9）</span></div>
+   <div class="contact"><b>30 DEC · 神戶 → 台北</b><span>19:00–21:15 · JST → CST（UTC+9 → +8）</span></div>
+   <div class="contact"><b>31 DEC · 台北 → 香港</b><span>09:50–11:50 · CST / HKT（UTC+8）</span></div>
+  </div>
+  <div class="subhead">住宿聯絡資料</div>
+  <div class="contact"><b>BRACKETS HOTEL Osaka Hommachi</b><span>大阪市中央區南本町 4-5-18<br>電話：+81 6-6563-7355<br>本町站 8 號出口步行約 2 分鐘</span></div>
+  <div class="contact" style="margin-top:8px"><b>飛驒高山華盛頓廣場酒店</b><span>岐阜縣高山市花里町 5-20<br>電話：+81 577-37-0410<br>高山站步行約 1 分鐘</span></div>
+  <div class="contact" style="margin-top:8px"><b>微笑酒店高級金澤東口站前</b><span>石川縣金澤市堀川新町 2-20<br>電話：+81 76-203-6611<br>金澤站東口步行約 3 分鐘</span></div>
+  <div class="warn">機票與酒店資料只按你提供的內容及可查到的公開酒店資料整理；沒有確認號碼、證件號碼、房間號碼或私人訂單資料。台灣住宿的官方地址、電話尚未確認。</div>
+ </div>
+</details>
+
+<div class="section-title"><h2>每日旅行時間軸</h2><span>每一天獨立展開</span></div>
+
+<details class="panel" open>
+ <summary>🌸 DAY 1｜23 DEC（三）前往大阪 <small>香港 → 高雄 → 關西 → 本町</small></summary>
+ <div class="details-body">
+  <div class="mapbox"><b style="font-size:12px">今日路線</b><br><a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=BRACKETS+HOTEL+Osaka+Hommachi&travelmode=transit" target="_blank" rel="noopener">關西機場 → 酒店交通導航 ↗</a></div>
+  <div class="timeline">
+   <div class="event"><div class="time">09:15</div><div class="eventmain"><b>建議抵達香港機場</b><p>國際航班預留約 3 小時辦理登機、行李及出境手續。</p></div></div>
+   <div class="event"><div class="time">12:15</div><div class="eventmain"><b>BR846｜香港 → 高雄</b><span class="tag fixed">航班時間按提供資料</span><p>長榮航空；香港 HKT 起飛。</p></div></div>
+   <div class="event"><div class="time">13:45</div><div class="eventmain"><b>抵達高雄</b><p>台灣時間 CST。按航空公司指示轉機，確認行李是否直掛關西，以及是否需要重新安檢。</p></div></div>
+   <div class="event"><div class="time">15:25</div><div class="eventmain"><b>BR846｜高雄 → 關西</b><span class="tag fixed">第二段獨立顯示</span><p>高雄 CST 起飛；請以登機證確認登機口及登機時間。</p></div></div>
+   <div class="event"><div class="time">19:15</div><div class="eventmain"><b>抵達關西國際機場 KIX</b><p>日本時間 JST。入境、取行李及步行至南海電鐵站，預留約 45–75 分鐘（視人流而定）。</p></div></div>
+   <div class="event"><div class="time">20:15–20:45</div><div class="eventmain"><b>南海電鐵：關西機場 → 難波</b><p>搭乘空港急行約 44–50 分鐘；若搭特急 Rapi:t 約 40 分鐘，需另購特急券。先確認當晚班次。</p><a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Kansai+Airport+Station&destination=Nankai+Namba+Station&travelmode=transit" target="_blank" rel="noopener">查看路線 ↗</a></div></div>
+   <div class="event"><div class="time">21:00</div><div class="eventmain"><b>難波轉大阪 Metro 御堂筋線</b><p>往千里中央方向，乘至本町站；車程約 5 分鐘，連同轉乘步行預留 15–20 分鐘。</p></div></div>
+   <div class="event"><div class="time">21:20–21:40</div><div class="eventmain"><b>抵達 BRACKETS HOTEL</b><p>本町站 8 號出口步行約 2 分鐘。預計 21:20–21:40 到酒店；如入境或交通延誤，可能更晚。今晚只安排入住、晚餐及休息。</p></div></div>
+  </div>
+  <div class="note"><b>機場交通建議：</b>南海空港急行至難波 → 大阪 Metro 御堂筋線至本町 → 步行到酒店。這條路線轉乘一次，較容易理解。南海官方指出 Rapi:t 約 34 分鐘至難波，空港急行約 39 分鐘；實際全程還要加上轉乘及步行。<a href="https://www.nankai.co.jp/en_railway/traffic/kix.html" target="_blank" rel="noopener">南海官方交通資訊 ↗</a></div>
+  <a class="maplink" href="https://www.google.com/maps/search/?api=1&query=BRACKETS+HOTEL+Osaka+Hommachi" target="_blank" rel="noopener">酒店 Google 地圖 ↗</a>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>🛍️ DAY 2｜24 DEC（四）大阪梅田逛街 <small>梅田購物・夜景</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Osaka+Umeda+Station&destination=Umeda+Sky+Building&waypoints=Grand+Front+Osaka%7CLucua+Osaka%7CHep+Five&travelmode=walking" target="_blank" rel="noopener">梅田步行多點導航 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">09:00</div><div class="eventmain"><b>酒店出發 → 梅田</b><p>本町站乘御堂筋線至梅田站，約 6–8 分鐘；連同出入口步行約 15 分鐘。</p></div></div>
+   <div class="event"><div class="time">09:30–11:30</div><div class="eventmain"><b>Grand Front Osaka</b><p>大型購物商場、生活雜貨、咖啡店。慢慢逛約 1.5–2 小時。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Grand+Front+Osaka" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">11:30–12:30</div><div class="eventmain"><b>午餐</b><p>建議在 Grand Front 或大阪站周邊用餐，避開聖誕前夕晚餐尖峰。</p></div></div>
+   <div class="event"><div class="time">12:30–14:00</div><div class="eventmain"><b>LUCUA Osaka／大阪站城</b><p>車站直結商場，適合買衣服、文具及伴手禮，約 1–1.5 小時。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=LUCUA+Osaka" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">14:00–15:00</div><div class="eventmain"><b>HEP FIVE</b><p>逛商場及紅色摩天輪周邊；摩天輪是否營運、營業時間需當日確認。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=HEP+FIVE+Osaka" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">15:00–16:30</div><div class="eventmain"><b>咖啡休息／自由購物</b><p>保留彈性，聖誕前夕商場可能較多人。</p></div></div>
+   <div class="event"><div class="time">16:30–18:00</div><div class="eventmain"><b>梅田藍天大廈空中庭園</b><span class="tag need">建議預先買票</span><p>預留 60–90 分鐘看日落及夜景；日落時間約 16:50 前後，請按當日天氣調整。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Umeda+Sky+Building" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">18:00–19:30</div><div class="eventmain"><b>晚餐及返回本町</b><p>梅田站乘御堂筋線返回本町，約 6–8 分鐘。</p></div></div>
+  </div>
+  <div class="note">12 月 24 日是平安夜，梅田商場及熱門餐廳可能繁忙。百貨公司、觀景台及摩天輪的特別營業安排要在官方網站再確認；不要把平日營業時間當作節日保證。</div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>🚆 DAY 3｜25 DEC（五）大阪前往高山 <small>新大阪 → 高山・老街散步</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Hida+Takayama+Washington+Hotel+Plaza&destination=Sanmachi+Suji&waypoints=Takayama+Jinya%7CMiyagawa+Morning+Market&travelmode=walking" target="_blank" rel="noopener">高山老街步行導航 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">06:30</div><div class="eventmain"><b>大阪酒店退房及早餐</b><p>建議前一晚整理行李；本町乘御堂筋線至新大阪，約 11 分鐘，連步行預留 25 分鐘。</p></div></div>
+   <div class="event"><div class="time">07:15</div><div class="eventmain"><b>抵達新大阪站</b><p>預留時間找月台、買早餐及確認列車。</p></div></div>
+   <div class="event"><div class="time">08:04–12:14</div><div class="eventmain"><b>新大阪 → 高山站</b><span class="tag fixed">按你提供的車票時間</span><p>此段請以已購車票的列車名稱、轉車站及月台為準。常見走法為新大阪搭新幹線至名古屋，再轉特急飛驒；不要只憑出發及抵達時間自行猜月台。</p></div></div>
+   <div class="event"><div class="time">12:14–12:30</div><div class="eventmain"><b>抵達高山站 → 酒店</b><p>酒店就在高山站旁，步行約 1 分鐘。先寄存行李；若未到入住時間，向櫃台確認寄存安排。</p></div></div>
+   <div class="event"><div class="time">12:30–13:30</div><div class="eventmain"><b>午餐：高山站周邊</b><p>可選飛驒牛丼、蕎麥麵或定食；冬天先吃熱食再散步。</p></div></div>
+   <div class="event"><div class="time">13:30–14:00</div><div class="eventmain"><b>步行前往高山陣屋</b><p>由酒店步行約 12–15 分鐘；參觀約 45–60 分鐘。入場時間及年末安排需核對。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Takayama+Jinya" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">14:45–16:15</div><div class="eventmain"><b>三町筋・高山老街</b><p>由陣屋步行約 5–8 分鐘。建議預留 1–1.5 小時，逛木造町家、甜品店、工藝品店及拍照。商店通常下午陸續關門，先逛店再拍街景。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Sanmachi+Suji+Takayama" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">16:15–16:35</div><div class="eventmain"><b>步行回酒店</b><p>約 15–20 分鐘，沿途天色已暗，冬天注意路面結冰。</p></div></div>
+   <div class="event"><div class="time">17:00–晚上</div><div class="eventmain"><b>入住、晚餐及休息</b><p>若仍有精神，可在站前商店街簡單散步。</p></div></div>
+  </div>
+  <div class="note">由酒店到老街全程步行可行：酒店 → 高山陣屋（約 12–15 分鐘）→ 三町筋（約 5–8 分鐘）→ 宮川河畔（再約 5–10 分鐘）。全段約 2–3 小時，連拍照及用餐約半天。宮川朝市冬季約 08:00–12:00，這天抵達後已太遲，不建議硬趕。<a href="https://www.hidatakayama.or.jp/faq/" target="_blank" rel="noopener">高山觀光官方 FAQ ↗</a></div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>🎤 DAY 4｜26 DEC（六）高山半日遊 <small>上午線上見面會・下午景點・晚上唱 K</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Hida+Takayama+Washington+Hotel+Plaza&destination=Karaoke+Kan+Takayama&waypoints=Hida+Folk+Village&travelmode=transit" target="_blank" rel="noopener">今日交通導航 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">08:00–12:00</div><div class="eventmain"><b>酒店內：AKB48 線上見面會</b><span class="tag fixed">固定活動</span><p>建議前一晚測試 Wi-Fi、耳機、手機／電腦、充電及活動平台；預留安靜空間。這段不安排外出。</p></div></div>
+   <div class="event"><div class="time">12:00–13:00</div><div class="eventmain"><b>午餐及休息</b><p>在酒店附近用餐，整理設備後出發。</p></div></div>
+   <div class="event"><div class="time">13:00–13:30</div><div class="eventmain"><b>前往飛驒之里 Hida no Sato</b><p>從高山站乘 Sarubobo 巴士或計程車；巴士約 10 分鐘，班次需當日確認。步行約 30–40 分鐘，不建議冬天走路前往。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Hida+Folk+Village" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">13:30–15:30</div><div class="eventmain"><b>飛驒之里合掌造村落</b><p>建議參觀約 1.5–2 小時。可看傳統合掌造民家、雪景及民俗展示；戶外路面可能濕滑，穿防滑鞋。</p></div></div>
+   <div class="event"><div class="time">15:30–16:00</div><div class="eventmain"><b>返回高山站及酒店</b><p>乘巴士或計程車回站前。</p></div></div>
+   <div class="event"><div class="time">16:00–18:00</div><div class="eventmain"><b>酒店休息／晚餐</b><p>先吃晚餐，唱 K 前不要把時間排得太緊。</p></div></div>
+   <div class="event"><div class="time">18:30–20:30</div><div class="eventmain"><b>高山市區唱 K</b><p>建議選高山站周邊可步行抵達的卡拉 OK 店；先查當日營業時間、年末營業安排及未成年人入店時段規定，必要時由同行成人協助確認。</p></div></div>
+  </div>
+  <div class="note">這天不建議再塞入遠郊景點。上午活動固定，下午日照短，飛驒之里是較合理的半日選擇。若下雪嚴重或巴士班次不合，改為站前老街、咖啡店及室內民俗展示。</div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>❄️ DAY 5｜27 DEC（日）白川鄉合掌村 <small>高山往返・巴士預約</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Takayama+Nohi+Bus+Center&destination=Shirakawa-go+Bus+Terminal&travelmode=transit" target="_blank" rel="noopener">高山 → 白川鄉交通導航 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">07:00</div><div class="eventmain"><b>早餐及步行到濃飛巴士中心</b><p>巴士中心就在高山站旁，酒店步行約 2–3 分鐘。提前 20–30 分鐘到站。</p></div></div>
+   <div class="event"><div class="time">08:50–09:40</div><div class="eventmain"><b>濃飛巴士：高山 → 白川鄉</b><span class="tag need">必須預約座位</span><p>建議目標班次 08:50 出發、約 09:40 抵達；實際班次與可售日期以 12 月 1 日起新時刻表及預約系統為準。</p><a class="maplink" href="https://www.nouhibus.co.jp/route_bus/shirakawago_en/" target="_blank" rel="noopener">官方時刻表／預約資訊 ↗</a></div></div>
+   <div class="event"><div class="time">09:40–10:00</div><div class="eventmain"><b>抵達白川鄉・荻町</b><p>先上洗手間、確認回程站牌及時間；如有大件行李，先使用巴士站寄物櫃（開放時間及尺寸需現場確認）。</p></div></div>
+   <div class="event"><div class="time">10:00–11:00</div><div class="eventmain"><b>荻町合掌造聚落散步</b><p>沿主街慢慢走，參觀合掌屋外觀、商店及小食店。拍照約 1 小時。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Ogimachi+Village+Shirakawa-go" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">11:00–12:00</div><div class="eventmain"><b>展望台</b><p>由聚落步行上展望台約 20–30 分鐘（雪地可能更久）；如有接駁巴士，依現場公告。大雪結冰時不要勉強步行上坡。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Shirakawa-go+Observatory" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">12:00–13:00</div><div class="eventmain"><b>午餐及休息</b><p>選當地蕎麥麵、飛驒牛或五平餅；熱門店可能排隊，預留彈性。</p></div></div>
+   <div class="event"><div class="time">13:00–14:00</div><div class="eventmain"><b>聚落補拍／紀念品</b><p>不建議再加入太多室內付費民家，避免錯過回程車。</p></div></div>
+   <div class="event"><div class="time">13:15–14:05（目標班次）</div><div class="eventmain"><b>回程巴士：白川鄉 → 高山</b><span class="tag need">預約回程座位</span><p>官方 12/1 起時刻表列有約 13:15 從白川鄉出發、14:05 抵達高山的班次；請在預訂系統確認該日是否可選及是否有座位。</p></div></div>
+   <div class="event"><div class="time">約 14:05</div><div class="eventmain"><b>回到高山站・酒店休息</b><p>預留雪天延誤，晚上只安排附近晚餐。</p></div></div>
+  </div>
+  <div class="warn"><b>冬季高風險：</b>濃飛巴士官方明確提醒，大雪、高速公路封閉及白川鄉停車場交通可能造成 2 小時以上延誤。這天不要安排不可改期的晚間活動；去程及回程都要訂好座位。<a href="https://www.nouhibus.co.jp/route_bus/shirakawago_en/" target="_blank" rel="noopener">官方公告 ↗</a></div>
+  <div class="note">12 月 1 日起新票價：高山–白川鄉成人單程約 ¥2,900（以預訂畫面為準）。官方公布 12/1 起班次調整；不要沿用 11 月以前的時刻表。</div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>🏔️ DAY 6｜28 DEC（一）新穗高纜車 <small>北阿爾卑斯山・天氣備案</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Takayama+Nohi+Bus+Center&destination=Shinhotaka+Ropeway&travelmode=transit" target="_blank" rel="noopener">高山巴士中心 → 新穗高纜車 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">07:45</div><div class="eventmain"><b>早餐後前往濃飛巴士中心</b><p>先在售票處或自動售票機購票；官方建議乘車前購票。</p></div></div>
+   <div class="event"><div class="time">08:40</div><div class="eventmain"><b>巴士中心出發（建議目標班次）</b><span class="tag need">出發前核實冬季班次</span><p>往新穗高纜車方向，沿途經平湯溫泉；車程約 80–100 分鐘。班次可能因季節、道路及天氣調整。</p></div></div>
+   <div class="event"><div class="time">約 10:16</div><div class="eventmain"><b>抵達新穗高纜車站</b><p>先確認回程班次與纜車運行狀況，再排隊乘搭。</p></div></div>
+   <div class="event"><div class="time">10:30–12:30</div><div class="eventmain"><b>第一、第二纜車及山頂展望台</b><p>纜車分兩段：新穗高溫泉站 → 鍋平高原 → 西穗高口。山頂海拔約 2,156 米；停留約 1.5–2 小時，視能見度及風勢而定。</p><a class="maplink" href="https://shinhotaka-ropeway.jp/en/" target="_blank" rel="noopener">官方營運資訊 ↗</a></div></div>
+   <div class="event"><div class="time">12:30–13:15</div><div class="eventmain"><b>午餐／山上休息</b><p>依開放設施及當日人流安排，保留時間取暖。</p></div></div>
+   <div class="event"><div class="time">13:15–14:30</div><div class="eventmain"><b>山景拍照及返回山麓</b><p>冬季戶外停留不要太久，留意結冰及強風。</p></div></div>
+   <div class="event"><div class="time">約 14:55</div><div class="eventmain"><b>巴士回高山（目標時間）</b><span class="tag need">需核對回程班次</span><p>若錯過班次，下一班可能要等近一小時；上山前先拍下最新時刻表。</p></div></div>
+   <div class="event"><div class="time">約 16:30–17:00</div><div class="eventmain"><b>回到高山・晚餐及休息</b><p>晚上不再安排遠距離活動。</p></div></div>
+  </div>
+  <div class="note"><b>營運資訊：</b>纜車冬季營業時間約 09:00–15:30；第 1 段通常每小時 00、30 分，第 2 段每小時 15、45 分。纜車可能因強風停駛。官方巴士頁亦警告大雪可能造成顯著延誤。<a href="https://shinhotaka-ropeway.jp/en/price/" target="_blank" rel="noopener">纜車官方時間 ↗</a> · <a href="https://www.nouhibus.co.jp/route_bus/shinhotaka-line-en/" target="_blank" rel="noopener">濃飛巴士時刻 ↗</a></div>
+  <div class="warn">若官方當日預報強風、纜車停駛或道路有封閉，直接取消上山，改在高山市區活動。不要為了趕纜車搭乘過早或不確定的接駁。</div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>🏮 DAY 7｜29 DEC（二）高山 → 金澤 <small>移動日・金澤散步</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Takayama+Nohi+Bus+Center&destination=Smile+Hotel+Premium+Kanazawa+Higashiguchi+Ekimae&travelmode=transit" target="_blank" rel="noopener">高山 → 金澤交通導航 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">07:30</div><div class="eventmain"><b>早餐、退房及整理行李</b><p>前往濃飛巴士中心；酒店距巴士中心很近。</p></div></div>
+   <div class="event"><div class="time">約 09:10</div><div class="eventmain"><b>高山 → 金澤直行巴士（目標班次）</b><span class="tag need">預約制／確認新時刻表</span><p>濃飛巴士自 2026/12/1 起新增高山至金澤直行便，不停白川鄉。車程約 2 小時 15 分鐘；實際出發、抵達及座位以官方訂票為準。</p><a class="maplink" href="https://www.nouhibus.co.jp/highwaybus/kanazawa_en/" target="_blank" rel="noopener">官方時刻及預約 ↗</a></div></div>
+   <div class="event"><div class="time">約 11:30–12:00</div><div class="eventmain"><b>抵達金澤站・酒店寄存行李</b><p>酒店位於金澤站東口，步行約 3 分鐘；先寄存行李或辦理入住。</p></div></div>
+   <div class="event"><div class="time">12:00–13:00</div><div class="eventmain"><b>近江町市場午餐</b><p>由金澤站步行約 15 分鐘，或乘巴士約 5–10 分鐘。海鮮丼及熟食選擇多；年末店家營業時間各異。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Omicho+Market+Kanazawa" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">13:00–14:30</div><div class="eventmain"><b>東茶屋街</b><p>由近江町市場乘巴士約 10–15 分鐘；漫步木格子老街、茶屋建築及甜品店，約 1–1.5 小時。各店年末營業不同。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Higashi+Chaya+District+Kanazawa" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">14:30–15:30</div><div class="eventmain"><b>主計町茶屋街／淺野川河畔</b><p>從東茶屋街步行約 5–10 分鐘；拍照及散步約 30–45 分鐘。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Kazuemachi+Chaya+District" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">15:30–16:15</div><div class="eventmain"><b>返回酒店</b><p>巴士或計程車回金澤站，辦理入住、休息。</p></div></div>
+   <div class="event"><div class="time">16:30–18:00</div><div class="eventmain"><b>金澤站・鼓門・百番街</b><p>站前拍照、買伴手禮及晚餐；年末商店可能提早關門。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Tsuzumi-mon+Gate+Kanazawa" target="_blank" rel="noopener">導航 ↗</a></div></div>
+  </div>
+  <div class="warn"><b>年末閉館提醒：</b>金澤 21 世紀美術館 12/29–1/1 完全閉館，不能排入今日。兼六園及金澤城公園通常全年開放，但庭園內部分茶屋／設施會休息；12/29 各店年末營業要逐間確認。<a href="https://visitkanazawa.jp/en/trip-ideas/detail_486.html" target="_blank" rel="noopener">金澤年末旅遊資訊 ↗</a></div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>🐼 DAY 8｜30 DEC（三）金澤 → 神戶 → 台北 <small>中華街・神戶機場 19:00</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Kanazawa+Station&destination=Kobe+Airport&waypoints=Nankinmachi&travelmode=transit" target="_blank" rel="noopener">金澤 → 南京町 → 神戶機場導航 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">05:45</div><div class="eventmain"><b>起床、簡單早餐及退房</b><p>前一晚先整理行李；這班早班車能為神戶中華街及機場預留較充裕時間。</p></div></div>
+   <div class="event"><div class="time">06:15</div><div class="eventmain"><b>抵達金澤站</b><p>預留約 30 分鐘找月台、買早餐及確認車票。</p></div></div>
+   <div class="event"><div class="time">06:46–07:27</div><div class="eventmain"><b>北陸新幹線：金澤 → 敦賀（つるぎ 3 號）</b><span class="tag need">指定席建議預訂</span><p>目前查到的班次資料顯示 06:46 出發、07:27 抵達敦賀；以購票當日官方班表及車票為準。</p></div></div>
+   <div class="event"><div class="time">08:07–09:33</div><div class="eventmain"><b>特急雷鳥 6 號：敦賀 → 大阪</b><p>07:27 抵達敦賀後轉乘 08:07 出發的雷鳥 6 號，約 09:33 抵達大阪。轉乘等候約 40 分鐘，留意月台及指定席車廂。</p></div></div>
+   <div class="event"><div class="time">09:45–10:06</div><div class="eventmain"><b>JR 神戶線新快速：大阪 → 三之宮</b><p>於大阪站轉乘 09:45 左右的新快速，約 10:06 抵達三之宮。全程約 3 小時 20 分鐘。</p></div></div>
+   <div class="event"><div class="time">10:10–10:40</div><div class="eventmain"><b>寄存行李及前往南京町</b><p>先在三宮／元町一帶寄存行李；年末置物櫃可能滿位，預留有人手寄存或改用其他車站置物櫃的時間。步行至南京町約 15–20 分鐘。</p><a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Nankinmachi+Kobe" target="_blank" rel="noopener">導航 ↗</a></div></div>
+   <div class="event"><div class="time">10:40–13:00</div><div class="eventmain"><b>南京町中華街午餐及逛街</b><p>預留約 2 小時 20 分鐘吃午餐、買小吃及拍照；熱門店可能排隊，避免坐下用餐太久。</p></div></div>
+   <div class="event"><div class="time">13:00–14:00</div><div class="eventmain"><b>元町／三宮簡單散步</b><p>不再安排遠距離景點，提早取回行李。</p></div></div>
+   <div class="event"><div class="time">14:30–15:00</div><div class="eventmain"><b>三宮 → 神戶機場</b><p>Port Liner 約 18 分鐘；加上步行、等車及取行李，預留約 35–45 分鐘。</p><a class="maplink" href="https://www.google.com/maps/dir/?api=1&origin=Sannomiya+Station&destination=Kobe+Airport+Station&travelmode=transit" target="_blank" rel="noopener">Port Liner 導航 ↗</a></div></div>
+   <div class="event"><div class="time">15:00–15:30</div><div class="eventmain"><b>抵達神戶機場</b><span class="tag fixed">建議提早約 2.5–3 小時</span><p>19:00 起飛，提早到機場辦理國際航班手續；以航空公司要求為準。</p></div></div>
+   <div class="event"><div class="time">19:00–21:15</div><div class="eventmain"><b>神戶 → 台北</b><span class="tag fixed">航班時間按提供資料</span><p>神戶 JST 起飛，台北 CST 抵達。請確認抵達機場是桃園 TPE 還是其他機場。</p></div></div>
+   <div class="event"><div class="time">21:15 之後</div><div class="eventmain"><b>抵達台北・前往機場住宿</b><p>若抵達桃園機場，先確認「町 草休行館」的確切地址、接駁方式及入住時間；不要假設酒店就在航廈內。</p></div></div>
+  </div>
+  <div class="warn"><b>這天仍是全程最需要守時的一天：</b>目前查到可考慮 06:46 金澤出發、10:06 抵達三宮的路線（つるぎ 3 號 → 雷鳥 6 號 → JR 神戶線）。這是依目前公開時刻資料整理的建議接駁，不代表已訂票；購票時必須再次核實 2026/12/30 的運行日、月台及轉乘。若班次變更或列車延誤，優先放棄逛街，不要冒險趕飛機。</div>
+  <div class="note">Port Liner 官方資料：神戶機場至三宮約 18 分鐘。<a href="https://www.kairport.co.jp/en/access/portliner" target="_blank" rel="noopener">神戶機場官方交通 ↗</a></div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>✈️ DAY 9｜31 DEC（四）台北返回香港 <small>桃園機場 → 香港</small></summary>
+ <div class="details-body">
+  <a class="maplink" href="https://www.google.com/maps/search/?api=1&query=Taiwan+Taoyuan+International+Airport+Terminal+2" target="_blank" rel="noopener">桃園機場第二航廈導航 ↗</a>
+  <div class="timeline">
+   <div class="event"><div class="time">06:30</div><div class="eventmain"><b>起床、早餐及退房</b><p>若住宿在機場航廈內，按酒店指示步行前往；若在機場周邊，預留接駁及交通時間。</p></div></div>
+   <div class="event"><div class="time">06:50–07:00</div><div class="eventmain"><b>抵達桃園機場航廈</b><p>09:50 起飛，建議提早約 3 小時到機場辦理登機及行李託運。</p></div></div>
+   <div class="event"><div class="time">09:50–11:50</div><div class="eventmain"><b>台北／桃園 → 香港</b><span class="tag fixed">航班時間按提供資料</span><p>台灣 CST 起飛，香港 HKT 抵達，兩地均為 UTC+8。</p></div></div>
+   <div class="event"><div class="time">11:50</div><div class="eventmain"><b>抵達香港</b><p>行程結束。領取行李及入境。</p></div></div>
+  </div>
+  <div class="warn">請確認 30 DEC 神戶航班抵達的確切台北機場，以及「町 草休行館」是否真的位於桃園機場第二航廈或提供免費接駁。兩項資訊未核實前，不應把住宿與航廈間的步行時間寫死。另因涉及未成年人單獨跨境旅行，請由監護人先向航空公司及每間酒店確認年齡限制、單獨乘機／入住規定及所需同意文件。</div>
+ </div>
+</details>
+
+<div class="section-title"><h2>待辦清單</h2><span>勾選狀態只保存在這部裝置</span></div>
+<section class="panel">
+ <div class="panel-head"><h2>☑️ 出發前準備</h2><span class="pill blue">可自行勾選</span></div>
+ <div class="progress" id="progress">已完成 0 項</div>
+ <div class="todo-group">
+  <h3>交通及門票</h3>
+  <label class="todo"><input type="checkbox"><span>預訂 12/25 新大阪 → 高山 JR 車票（核對 08:04–12:14 的完整列車及轉乘資料）</span></label>
+  <label class="todo"><input type="checkbox"><span>預訂 12/27 高山 → 白川鄉去程巴士</span></label>
+  <label class="todo"><input type="checkbox"><span>預訂 12/27 白川鄉 → 高山回程巴士</span></label>
+  <label class="todo"><input type="checkbox"><span>確認 12/28 新穗高巴士冬季時刻及回程班次</span></label>
+  <label class="todo"><input type="checkbox"><span>確認新穗高纜車當日營運及購票安排</span></label>
+  <label class="todo"><input type="checkbox"><span>預訂 12/29 高山 → 金澤直行巴士（確認 12/1 新班表）</span></label>
+  <label class="todo"><input type="checkbox"><span>預訂 12/30 金澤 → 神戶 JR 車票（北陸新幹線＋特急雷鳥＋神戶線）</span></label>
+  <label class="todo"><input type="checkbox"><span>確認梅田藍天大廈觀景台門票及聖誕營業時間</span></label>
+  <label class="todo"><input type="checkbox"><span>確認高山唱 K 店家營業時間及入場規定</span></label>
+  <h3>旅遊文件及生活雜項</h3>
+  <label class="todo"><input type="checkbox"><span>填寫 Visit Japan Web 日本入境資料；另確認台灣入境卡／入境規定</span></label>
+  <label class="todo"><input type="checkbox"><span>購買合適的旅遊保險</span></label>
+  <label class="todo"><input type="checkbox"><span>兌換日元及準備少量台幣</span></label>
+  <label class="todo"><input type="checkbox"><span>確認手機漫遊／eSIM／網絡方案</span></label>
+  <label class="todo"><input type="checkbox"><span>下載離線地圖及保存酒店地址</span></label>
+  <label class="todo"><input type="checkbox"><span>確認信用卡海外交易及提款安排</span></label>
+  <label class="todo"><input type="checkbox"><span>整理護照、機票、酒店訂房資料（不要上傳到公開網頁）</span></label>
+  <label class="todo"><input type="checkbox"><span>確認冬季外套、防水鞋、手套、暖包及行李</span></label>
+  <label class="todo"><input type="checkbox"><span>測試 AKB48 線上見面會裝置、耳機及網絡</span></label>
+  <label class="todo"><input type="checkbox"><span>確認台灣機場住宿的正確地址、電話及接駁方式</span></label>
+  <label class="todo"><input type="checkbox"><span>由監護人陪同確認未成年人單獨乘機、航空公司規定、監護人同意文件及酒店入住年齡要求</span></label>
+  <label class="todo"><input type="checkbox"><span>確認 12/30 神戶航班的抵達機場及 12/31 回港航班航廈</span></label>
+ </div>
+</section>
+
+<details class="panel">
+ <summary>📌 重要預訂與官方查詢入口</summary>
+ <div class="details-body">
+  <div class="hotel"><b>濃飛巴士｜白川鄉及金澤線</b><p>2026/12/1 新時刻表；大雪可能延誤 2 小時以上。</p><a href="https://www.nouhibus.co.jp/route_bus/shirakawago_en/" target="_blank" rel="noopener">官方網站 ↗</a></div>
+  <div class="hotel"><b>濃飛巴士｜新穗高線</b><p>高山－平湯－新穗高，冬季需再確認當日班次。</p><a href="https://www.nouhibus.co.jp/route_bus/shinhotaka-line-en/" target="_blank" rel="noopener">官方網站 ↗</a></div>
+  <div class="hotel"><b>新穗高纜車</b><p>營業時間、運行狀態、票價及停駛公告。</p><a href="https://shinhotaka-ropeway.jp/en/" target="_blank" rel="noopener">官方網站 ↗</a></div>
+  <div class="hotel"><b>JR 西日本</b><p>金澤－敦賀－大阪－神戶列車查詢及訂票。</p><a href="https://www.westjr.co.jp/global/en/" target="_blank" rel="noopener">官方網站 ↗</a></div>
+  <div class="hotel"><b>金澤年末開放資訊</b><p>兼六園、金澤城、東茶屋街及博物館年末營業資訊。</p><a href="https://visitkanazawa.jp/en/trip-ideas/detail_486.html" target="_blank" rel="noopener">官方旅遊資訊 ↗</a></div>
+ </div>
+</details>
+
+<details class="panel">
+ <summary>ⓘ 網頁使用說明及時間設定</summary>
+ <div class="details-body">
+  <p style="font-size:12px">本頁為單一 HTML 文件；所有樣式、互動程式、手繪 SVG 均內嵌。離線開啟可查看行程、展開卡片及勾選待辦。Google 地圖導航連結需要網絡。</p>
+  <p style="font-size:12px">時間基準：日本 JST（UTC+9）；台灣 CST（UTC+8）；香港 HKT（UTC+8）。行程時間均按所在城市當地時間顯示。倒數以 2026-12-23T12:15:00+08:00 為目標。</p>
+  <p style="font-size:12px">待辦勾選狀態存於目前瀏覽器的 localStorage，不會同步到其他人的裝置，也不會修改公開網頁。你告訴我完成了哪些項目後，我可以再更新 HTML 版本。</p>
+  <p style="font-size:12px">本頁不是即時交通系統；巴士、鐵路、營業時間及天氣可能更改。已提供的航班時間按你的資料呈現，未提供航班號碼及未確認的車次不作推測。</p>
+ </div>
+</details>
+
+<div class="footer">✿ 祝你有一趟平安、溫暖又充滿雪景的冬日旅程 ✿<br>公開分享前，請勿加入任何訂單編號、證件資料或私人確認資訊。</div>
+</div>
+<button class="topbtn" aria-label="回到頂部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<script>
+(function(){
+ const target=Date.parse('2026-12-23T12:15:00+08:00');
+ function tick(){
+  let s=Math.max(0,Math.floor((target-Date.now())/1000));
+  const d=Math.floor(s/86400);s%=86400;
+  const h=Math.floor(s/3600);s%=3600;
+  const m=Math.floor(s/60);s%=60;
+  document.getElementById('dd').textContent=d;
+  document.getElementById('hh').textContent=String(h).padStart(2,'0');
+  document.getElementById('mm').textContent=String(m).padStart(2,'0');
+  document.getElementById('ss').textContent=String(s).padStart(2,'0');
+ }
+ tick();setInterval(tick,1000);
+ const boxes=[...document.querySelectorAll('.todo input')];
+ const key='winter_trip_2026_tasks_v1';
+ try{
+  const saved=JSON.parse(localStorage.getItem(key)||'[]');
+  boxes.forEach((b,i)=>b.checked=!!saved[i]);
+ }catch(e){}
+ function update(){
+  try{localStorage.setItem(key,JSON.stringify(boxes.map(b=>b.checked)))}catch(e){}
+  const n=boxes.filter(b=>b.checked).length;
+  document.getElementById('progress').textContent=`已完成 ${n} / ${boxes.length} 項`;
+ }
+ boxes.forEach(b=>b.addEventListener('change',update));update();
+})();
+</script>
+</body>
+</html>
